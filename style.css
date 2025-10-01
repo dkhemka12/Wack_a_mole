@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Arial', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    background-color: #f0f8ff;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
+.mole{
+    width:100px;
+    height:100px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    display:grid;
+    align-items: center;
+    background-color: rgb(176, 226, 187);
+}
+
+#gameArea{
+    display:flex;       
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 20px auto;
+}
+#controls{
+    display:flex;       
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 20px auto;
+    justify-content: center;
+}
+.control{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+}
+.control:active{
+    background-color: darkgreen;
+    transform: scale(0.95);
+}
+
+.mole:active{
+    background-color: rgb(245, 93, 79);
+    transform: scale(0.95);
+}
+p{
+    font-size: 18px;    
+    font-weight: bold;
+}
